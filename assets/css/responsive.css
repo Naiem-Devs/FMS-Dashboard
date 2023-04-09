@@ -65,6 +65,11 @@ section.job-Area table.table {
     overflow: auto;
     height: auto;
 }
+.job-Area .accordion-body {
+    overflow: hidden;
+    height: auto;
+    overflow-x: auto;
+}
 
 }
 
@@ -121,11 +126,13 @@ section.job-Area table.table {
 section.job-Area table.table {
     min-width: 979px;
     margin-bottom: 0;
+    height: auto;
 }
 
 .job-Area .accordion-body {
-    overflow: auto;
+    overflow: hidden;
     height: auto;
+    overflow-x: auto;
 }
  
 }
