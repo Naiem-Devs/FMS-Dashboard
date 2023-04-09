@@ -1,0 +1,137 @@
+/* Big screen :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+    .search__bar {
+        max-width: 1020px;
+    }
+    
+    .accordion {
+        max-width: 1020px;
+    }
+}
+
+
+/* Normal screen :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+    .search__bar {
+        max-width: 100%;
+        width: calc(100% - 60px);
+        margin-left: 30px;
+    }
+    
+    .accordion {
+        max-width: 1020px;
+        margin-left: 20px;
+    }
+    .header__area {
+        padding-left: 30px;
+    }
+    
+    .task__wrp1 {
+        width: calc(100% - 60px);
+    }
+
+}
+
+ 
+/* Tablet screen :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .search__bar {
+        max-width: 100%;
+        width: calc(100% - 60px);
+        margin-left: 30px;
+    }
+    
+    .accordion {
+        max-width: 1020px;
+        margin-left: 20px;
+    }
+    .header__area {
+        padding-left: 30px;
+    }
+    
+    .task__wrp1 {
+        width: calc(100% - 60px);
+    }
+
+section.job-Area table.table {
+    min-width: 979px;
+    margin-bottom: 0;
+}
+
+.job-Area .accordion-body {
+    overflow: auto;
+    height: auto;
+}
+
+}
+
+ 
+/* small screen :320px. */
+@media (max-width: 767px) {
+    a.mobile__nav_btn {
+        display: block;
+        font-size: 23px;
+        margin-right: 10px;
+        margin-left: -10px;
+    }
+    .side__nav {
+        left: -80px;
+    }
+
+.side__nav.active {
+    left: 0;
+    z-index: 999;
+}
+    main {
+        width: calc(100% - 0px);
+    }
+    
+    .header__title p {
+        font-size: 14px;
+        width: max-content;
+    }
+    
+    .extra_option {
+        top: 104px;
+    }
+    .search__bar {
+        max-width: 100%;
+        width: calc(100% - 20px);
+        margin: auto;
+        margin-bottom: 15px;
+    }
+    .header__title h1 {
+        font-size: 24px;
+    }
+    .accordion {
+        max-width: 1020px;
+        margin-left: 20px;
+    }
+    .header__area {
+    padding: 20px 10px;
+    }
+    
+    .task__wrp1 {
+        width: calc(100% - 15px);
+    }
+
+section.job-Area table.table {
+    min-width: 979px;
+    margin-bottom: 0;
+}
+
+.job-Area .accordion-body {
+    overflow: auto;
+    height: auto;
+}
+ 
+}
+ 
+/* Large Mobile screen :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+ 
+}
